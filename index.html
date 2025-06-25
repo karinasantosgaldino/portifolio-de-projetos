@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/kaka.png" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou a Karina</p>
+        <h1>Programação na escola</h1>
+        <p>Sou Karina, estudo na Escola Estadual Professor Alberto Salotti, e estou no 3 ano do ensino. Aqui tenho aulas de programação e vou compartilhar meus últimos projetos.</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/corrida.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Corrida Personalizada</h5>
+                        <p class="card-text">“Fiz uma corrida personalizada usando JavaScript e p5.js durante o curso da Alura Start. Criei um jogo onde quatro corredores que disputam quem chega primeiro na linha de chegada. 
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/monalisa png.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto Monalisa</h5>
+                        <p class="card-text">Nesse projeto Monalisa, a intenção era utilizar as formas geométricas para criar uma releitura da obra interativa, pois ao mexer o mouse os olhos dela se movimentam.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/download.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Projeto Quente e frio 
+                        <p class="card-text">
+Se você já brincou desse jogo, sabe como funciona: o objetivo é encontrar algo ou alguém que está oculto. Neste projeto, teremos um círculo representando um ponto na tela. Vamos procurá-lo usando o cursor do mouse. Se estivermos longe do ponto, diremos ”frio”. Quando estivermos próximos, diremos ”quente”, até encontrarmos o objeto.
+                        
+
+</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Corrida personalizadas: Etapas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p> A pista é desenhada no canvas, e ao clicar na tela a corrida começa, cada jogador aperta sua tecla para fazer seu personagem andar.</p>
+                    <p>Quando alguém cruza a linha, aparece uma mensagem anunciando o vencedor.</p>
+                    <p>Então, é só clicar em “PLAY” de novo para reiniciar, foi super divertido e dá pra ver a base que o curso oferece em funções, loops e interação com o canvas!” 
+github.com
++9
+github.com
++9
+reddit.com
++9
+
+</p>
+                    <p> Com isso eu: Aprendi a usar listas, funções e repetições em JavaScript para controlar o movimento dos corredores.
+
+Desenhei elementos no Canvas via p5.js — construindo pista, corredores e linha de chegada.
+
+Implementei interação com teclas (A/S/D/F) e detectei quando alguém ganha.
+
+Adicionei replay: clique para reiniciar e jogar de novo.
+
+Entendi lógica de jogo e consolidei conceitos que vi no curso.</p>
+                    <img src="img/resultado.png png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://femascheti.github.io/minhas-leituras/">Ver projeto ao vivo</a>
+                    <a href="https://github.com/femascheti/minhas-leituras">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Monalisa: Etapas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Nesse projeto Monalisa, a gente começa desenhando formas geométricas no canvas do p5.js, entendendo como posicionar e colorir cada parte (olhos, boca, contorno) usando coordenadas X e Y e mapeamento de valores.
+                    </p>
+                    <p>Depois, vem a parte mais divertida: deixar os olhos da Monalisa interativos! A ideia é usar a pupila dos olhos para seguir o movimento do mouse, igual aquele efeito clássico de que ela sempre te olha, não importa onde você esteja.</p>
+                    <p>A gente aplica a função map() e um pouco de matemática (até Pitágoras entra, para calibrar posição e distância) 
+reddit.com
++15
+id.scribd.com
++15
+pt.scribd.com
++15
+.</p>
+                    <p>No fim, o resultado é super legal: tanto uma experiência gráfica com formas e cores, quanto a sensação de que ela realmente acompanha o cursor — tudo feito com JS e p5.js.
+                    </p>
+                    <img src="img/projeto-2.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://femascheti.github.io/tecnicas-computacionais-refletindo-sobre-ia/">Ver projeto ao
+                        vivo</a>
+                    <a href="https://github.com/femascheti/tecnicas-computacionais-refletindo-sobre-ia">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Quente e frio: Etapas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Desenhei o ponto fixo no centro da tela (ou posição aleatória).</p>
+                    <p>Calculei a distância entre mouseX, mouseY e as coordenadas do ponto usando dist().
+
+Fiz condicionais:
+
+if (dist > certo valor): exibe “frio”
+
+else if (dist < valor menor): exibe “quente”
+
+</p>
+                    <p>Mostrei o feedback usando text() no canvas, com cor e tamanho que fica fácil de identificar.
+
+Completo quando o mouse encosta ou chega muito perto do ponto, fim da brincadeira! O que achei mais legal:
+A sensação da brincadeira ao vivo traduzida pro código é super divertida! </p>
+                    <img src="img/projeto-3.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://scratch.mit.edu/projects/951732825/">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/femascheti">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2025. Produzido por Karina Galdino</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
